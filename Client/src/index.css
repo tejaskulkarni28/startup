@@ -71,11 +71,12 @@
     height: 500px;
     color:white;
     background-image:url("../Images/Bulb.jpg");
+    background-size: auto;
 }
 @media only screen and (max-width: 600px){
     .image-container{
         color: white;
-        width: 100%;
+        width: auto;
         height: 250px;
         background-image:url("../images/bulb.jpg");
     }
@@ -83,5 +84,8 @@
         font-size: 25px;
         text-align: center;
         line-height: 250px;
+        background: linear-gradient(to right, #66ecec 0%, #6c12db 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
