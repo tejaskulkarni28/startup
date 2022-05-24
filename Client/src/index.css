@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
 }
+
+/* This code is for navigation container */
 .nav-container{
     height: 90px;
     background-color: black;
@@ -45,7 +47,7 @@
 .brand{
     width: 150px;
     color: red;
-    font-size: 20px;
+    font-size: 22px;
 } 
 .nav-container li{
     align-items: center;
@@ -54,9 +56,32 @@
     cursor: pointer;
 }
 .services{
-    font-size: 14px;
+    font-size: 18px;
 }
 .services:hover{
     color: red;
 }
+}
+
+
+
+/* This code is for image container */
+.image-container{
+    text-align: center;
+    height: 500px;
+    color:white;
+    background-image:url("../images/bulb.jpg");
+}
+@media only screen and (max-width: 600px){
+    .image-container{
+        color: white;
+        width: 100%;
+        height: 250px;
+        background-image:url("../images/bulb.jpg");
+    }
+    .image-container h1{
+        font-size: 25px;
+        text-align: center;
+        line-height: 250px;
+    }
 }
