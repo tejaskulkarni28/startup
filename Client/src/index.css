@@ -47,7 +47,7 @@
 .brand{
     width: 150px;
     color: red;
-    font-size: 22px;
+    font-size: 25px;
 } 
 .nav-container li{
     align-items: center;
@@ -56,7 +56,7 @@
     cursor: pointer;
 }
 .services{
-    font-size: 18px;
+    font-size: 19px;
 }
 .services:hover{
     color: red;
@@ -71,21 +71,83 @@
     height: 500px;
     color:white;
     background-image:url("../Images/Bulb.jpg");
-    background-size: auto;
+    background-size: cover;
 }
+.image-container h1{
+    line-height: 750px;
+    font-size: 40px;
+    text-align: center;
+    background:linear-gradient(to right, #66ecec 0%, #6c12db 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media only screen and (max-width: 600px){
     .image-container{
         color: white;
-        width: auto;
-        height: 250px;
+        /* width: auto; */
+        height: 300px;
         background-image:url("../images/bulb.jpg");
+        background-size:contain;
+        background-repeat: no-repeat;
     }
     .image-container h1{
-        font-size: 25px;
+        font-size: 28px;
         text-align: center;
-        line-height: 250px;
+        line-height: 300px;
         background: linear-gradient(to right, #66ecec 0%, #6c12db 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 }
+
+/* This code is for job-openings container */
+.job-openings-container{
+    margin: 200px;
+}
+.job-openings-container h2{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.job-openings-container ul{
+    list-style: disc;
+}
+.job-openings-container li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.job-openings-container a{
+    color: #d01846;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+    .job-openings-container{
+        margin: 50px;
+    }
+    .job-openings-container h2{
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .job-openings-container ul{
+        list-style: disc;
+    }
+    .job-openings-container li{
+        list-style-type: none;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 17px;
+    }
+    .job-openings-container a{
+        color: #d01846;
+        text-decoration: none;
+    }
+    
+}
+
+
+
