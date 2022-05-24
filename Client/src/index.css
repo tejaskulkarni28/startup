@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    height: 90px;
+    background-color: black;
+    color: white;
+}
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+.brand{
+    width: 300px;
+    color: red;
+    font-size: 40px;
+} 
+.nav-container li{
+    align-items: center;
+    text-align: center;
+    margin:20px;
+    cursor: pointer;
+}
+.services{
+    font-size: 20px;
+}
+.services:hover{
+    color: red;
+}
+@media only screen and (max-width: 600px) {
+  .nav-container{
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+.brand{
+    width: 150px;
+    color: red;
+    font-size: 20px;
+} 
+.nav-container li{
+    align-items: center;
+    text-align: center;
+    margin:10px;
+    cursor: pointer;
+}
+.services{
+    font-size: 14px;
+}
+.services:hover{
+    color: red;
+}
+}
